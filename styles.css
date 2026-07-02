@@ -39,6 +39,7 @@ main {
 
 .gallery-item p {
     margin: 0.5em 0;
+    color: blue; /* Changed to blue for hat title */
 }
 
 @media (min-width: 600px) {
