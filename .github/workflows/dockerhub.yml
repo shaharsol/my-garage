@@ -36,5 +36,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ vars.DOCKERHUB_USERNAME }}/YOUR_IMAGE_NAME:latest
-            ${{ vars.DOCKERHUB_USERNAME }}/YOUR_IMAGE_NAME:${{ github.sha }}
+            ${{ vars.DOCKERHUB_USERNAME }}/auto-garage:latest
+            ${{ vars.DOCKERHUB_USERNAME }}/auto-garage:${{ github.sha }}
